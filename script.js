@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 
-function Erase(color = "white", effect = "mouseover" ) {
+function Erase(color = "white", effect = "mouseover") {
     divs = document.querySelectorAll(".grid-item");
     divs.forEach((div) =>
         div.addEventListener(effect, (e) => {
@@ -10,12 +10,14 @@ function Erase(color = "white", effect = "mouseover" ) {
 }
 
 function ColorPicker() {
-    
+    let MyColor = document.getElementById("MyColor").value;
+    color = MyColor;
+    return colorGrid(color);
 }
 
 function Rainbow() {
-    color = "rainbow"
-    return colorGrid(color)
+    color = "rainbow";
+    return colorGrid(color);
 }
 
 function Clear() {
@@ -45,7 +47,7 @@ function colorGrid(color = "black", effect = "mouseover") {
     let divs = document.querySelectorAll(".grid-item");
     divs.forEach((div) =>
         div.addEventListener(effect, (e) => {
-            if(color === "rainbow") {
+            if (color === "rainbow") {
                 e.target.style.backgroundColor = `hsl(${Math.floor(Math.random() * 361)}, 100%, 50%)`
             }
             e.target.style.backgroundColor = color;

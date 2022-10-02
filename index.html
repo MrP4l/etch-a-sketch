@@ -14,7 +14,9 @@
     <div class="title">Etch-A-Sketch</div>
     <div class="buttons-container">
         <div id="eraser" onclick="Erase()">Eraser</div>
-        <div id="color-picker" onclick="ColorPicker()">Color Picker</div>
+        <div id="color-picker">Color Picker
+            <input type="color" id="MyColor" onchange="ColorPicker()">
+        </div>
         <div id="rainbow" onclick="Rainbow()">Rainbow</div>
         <div id="clear" onclick="Clear()">Clear</div>
         <div id="table-size" onclick="TableSize()">Table Size</div>
