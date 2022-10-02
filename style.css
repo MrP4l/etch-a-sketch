@@ -16,7 +16,7 @@ body {
     height: fit-content;
     border-radius: 10px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
     background-color: #282D3C;
@@ -24,53 +24,66 @@ body {
 }
 
 .buttons-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
-    flex-wrap: wrap;
 }
 
 #eraser {
     border: solid;
     margin: 10px;
-    padding: 3px;
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     background-color: #798EA4;
 }
 
 #color-picker {
     border: solid;
     margin: 10px;
-    padding: 3px;
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     background-color: #798EA4;
 }
 
 #rainbow {
     border: solid;
     margin: 10px;
-    padding: 3px;
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     background-color: #798EA4;
 }
 
 #clear {
     border: solid;
     margin: 10px;
-    padding: 3px;
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     background-color: #798EA4;
 }
 
 #table-size {
     border: solid;
     margin: 10px;
-    padding: 3px;
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     background-color: #798EA4;
 }
 
@@ -98,7 +111,7 @@ body {
     display:grid;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 50%;
     transform: translate(-50%, -50%);
     border: solid;
     width: 450px;
