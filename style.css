@@ -30,18 +30,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 5vh;
+    margin-top: 4vh;
     justify-content: center;
 }
 
 #buttonsContainer > div {
     border: solid;
     border-radius: 5px;
-    margin: 10px;
-    font-size: clamp(0.8em, 1em, 2em);
+    font-size: clamp(0.8em, 1.2em, 2em);
     text-align: center;
     background-color: #798EA4;
-    width: 20vw 
+    width: 20vw; 
+    margin: 1vh;
 }
 
 #buttonsContainer > div:hover {
@@ -52,7 +52,7 @@ body {
     display:grid;
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 60%;
     transform: translate(-50%, -50%);
     border: solid;
     width: clamp(350px, 25vw, 30vw);
